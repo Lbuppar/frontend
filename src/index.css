@@ -1,0 +1,772 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: var(--sixty);
+  letter-spacing: 1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* 1360px */
+
+@media screen and (max-width:1460px) {
+  .products {
+    width: 85vw;
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 32%);
+    gap: 22px;
+    justify-content: space-between;
+
+  }
+
+  .product {
+    padding: 5px 10px 40px;
+  }
+
+
+  .product>img {
+    width: 180px;
+  }
+
+  /*Cart  Started */
+  .cart {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url("../src/assets/glass.jpg");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: 740px 220px;
+    background-attachment: fixed;
+  }
+
+  table {
+    width: 90%;
+  }
+
+  table td img {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+  }
+
+  td,
+  th {
+    padding: 5px;
+
+  }
+
+  .remove button {
+
+    padding: 5px 20px;
+
+  }
+
+
+  /*Cart  Ended */
+
+
+  .aboutus article>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .aboutus div p {
+    line-height: 40px;
+    letter-spacing: 2px;
+    width: 50%;
+    margin-top: 40px;
+    font-weight: 600;
+    text-align: justify;
+  }
+
+  .aboutus div img {
+    width: 50%;
+    height: 400px;
+    object-fit: contain;
+
+
+  }
+
+
+
+
+  .aboutus>.team div img {
+    width: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+
+
+  /* About ended */
+
+  /* Contact us started */
+  .contactus {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .contactus div p {
+    line-height: 35px;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+
+  .contactus iframe {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Contact us ended */
+
+
+}
+
+
+
+
+/* 1360px */
+
+@media screen and (max-width:1360px) {
+  .products {
+    width: 85vw;
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 31%);
+    gap: 22px;
+    justify-content: space-between;
+
+  }
+
+  .product {
+    padding: 5px 10px 40px;
+  }
+
+
+  .product>img {
+    width: 180px;
+  }
+
+  /*Cart  Started */
+
+
+
+  table {
+    width: 90%;
+  }
+
+  table td img {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+  }
+
+  td,
+  th {
+    padding: 5px;
+
+  }
+
+  .remove button {
+
+    padding: 5px 20px;
+
+  }
+
+
+  /*Cart  Ended */
+
+
+  .aboutus article>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .aboutus div p {
+    line-height: 40px;
+    letter-spacing: 2px;
+    width: 50%;
+    margin-top: 40px;
+    font-weight: 600;
+    text-align: justify;
+  }
+
+  .aboutus div img {
+    width: 50%;
+    height: 400px;
+    object-fit: contain;
+
+
+  }
+
+
+
+
+  .aboutus>.team div img {
+    width: 50%;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+
+
+  /* About ended */
+
+  /* Contact us started */
+  .contactus {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .contactus div p {
+    line-height: 35px;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+
+  .contactus iframe {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Contact us ended */
+
+
+}
+
+
+
+
+
+
+/* 1100px */
+@media screen and (max-width:1100px) {
+
+  /* Header started */
+  header {
+
+    grid-template-columns: 20% 70% 10%;
+    justify-content: space-around;
+    font-size: 17px;
+  }
+
+
+
+  header a {
+    padding: 2px 5px;
+    margin: 0px 3px;
+
+  }
+
+
+  /* Header ended */
+
+
+  .products {
+    width: 85vw;
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 48%);
+    gap: 22px;
+
+
+  }
+
+  .product {
+    padding: 5px 10px 40px;
+  }
+
+
+  .product>img {
+    width: 180px;
+  }
+
+
+  /*Cart  Started */
+
+  .no-cart {
+    background-size: 300px;
+    background-position: 50% 10%;
+    padding: 300px 0px;
+  }
+
+  .no-cart p {
+    width: 100%;
+    font-size: 2rem;
+    color: var(--ten);
+    text-underline-offset: 10px;
+    text-decoration: 3px underline var(--thirty);
+    text-align: center;
+
+  }
+
+  .cart {
+    background-image: url("");
+  }
+
+  .one {
+    flex-basis: 100%;
+  }
+
+
+
+  table {
+    width: 100%;
+  }
+
+  table td img {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+  }
+
+  td,
+  th {
+    padding: 5px;
+  }
+
+  .remove button {
+    padding: 5px 20px;
+  }
+
+  /*Cart  Ended */
+
+  /*About us  started */
+
+
+  .aboutus article>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .aboutus div p {
+    line-height: 30px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .aboutus div img {
+    width: 500px;
+    height: 350px;
+  }
+
+
+  .aboutus>.team div img {
+    width: 400px;
+    margin-top: -20px;
+  }
+
+  /*About us  ended */
+
+
+  /* Contact us started */
+  .contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactus div p {
+    line-height: 35px;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+
+  .contactus iframe {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-image {
+    width: 90%;
+  }
+
+  /* Contact us ended */
+
+
+
+}
+
+
+
+
+/* 700px */
+@media screen and (max-width:710px) {
+
+  /* Header started */
+  header {
+
+    grid-template-columns: 20% 70% 10%;
+    justify-content: space-around;
+    font-size: 16px;
+    align-items: center;
+  }
+
+  header a {
+    padding: 2px 3px;
+    margin: 0px 5px;
+
+  }
+
+
+  /* Header ended */
+
+
+
+  .products {
+    width: 85vw;
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 95%);
+    gap: 22px;
+    justify-content: space-evenly;
+  }
+
+  .product {
+    padding: 5px 10px 40px;
+  }
+
+
+  .product p {
+    line-height: 30px;
+    margin-top: 15px;
+  }
+
+
+  .product>img {
+    width: 280px;
+  }
+
+  /*Cart  Started */
+  .no-cart p {
+    font-size: 1.2rem;
+  }
+
+  .cart {
+    padding: 20px;
+  }
+
+
+  table {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  table td img {
+    width: 90px;
+    height: 90px;
+    padding: 2px;
+  }
+
+  td,
+  th {
+    padding: 5px;
+
+  }
+
+  .remove button {
+
+    padding: 5px 8px;
+
+  }
+
+  /*Cart  Ended */
+
+
+  /*About us  started */
+
+
+
+  .aboutus article>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .aboutus div p {
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    width: 100%;
+    margin-top: 40px;
+    font-weight: 600;
+    text-align: justify;
+  }
+
+  .aboutus div img {
+    width: 400px;
+    height: 350px;
+  }
+
+
+  .aboutus>.team div img {
+    width: 400px;
+    margin-top: 10px;
+  }
+
+  /*About us  ended */
+
+  /* Contact us started */
+  .contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactus div p {
+    line-height: 35px;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+
+  .contactus iframe {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contactus img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Contact us ended */
+
+}
+
+
+
+/* 670*/
+@media screen and (max-width:670px) {
+
+  /* Header started */
+
+  .container {
+    width: 100%;
+  }
+
+  .aboutus,
+  .contactus {
+    padding: 20px;
+
+  }
+
+  .contact-image {
+    width: 90%;
+    text-align: center;
+  }
+
+  header {
+    width: 100%;
+    grid-template-columns: 90% 10%;
+    font-size: 16px;
+  }
+
+  header a {
+    padding: 0px;
+    margin: 0px 10px;
+    text-align: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  /* Header ended */
+
+  .products {
+    width: 100%;
+  }
+
+  .product>img {
+    width: 230px;
+  }
+
+  .product>p {
+    line-height: 25px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* 420px */
+
+@media screen and (max-width:420px) {
+
+  .container {
+    width: 100%;
+  }
+
+
+  /* Header started */
+
+  .logo {
+    display: none;
+  }
+
+  header {
+    width: 100vw;
+    grid-template-columns: 90% 10%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  header a {
+    padding: 0px;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px 5px;
+  }
+
+
+
+  /*Product  Started */
+  .products {
+    width: 100%;
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 95%);
+    gap: 22px;
+    justify-content: space-evenly;
+
+  }
+
+  .product {
+    padding: 5px 10px 40px;
+  }
+
+
+  .product>img {
+    width: 200px;
+  }
+
+  .product>p {
+    line-height: 22px;
+  }
+
+  /*Product  Ended */
+
+  /*Cart  Started */
+
+
+
+  table {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px;
+
+  }
+
+  table td img {
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+  }
+
+  td,
+  th {
+    padding: 2px;
+  }
+  
+  td{
+    font-size: 14px;
+  }
+
+  .remove button {
+    padding: 5px;
+  }
+
+  /*Cart  Ended */
+
+  /*About us  started */
+
+
+  .aboutus article>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .aboutus div p {
+    line-height: 30px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .aboutus div img {
+    width: 300px;
+    height: 250px;
+  }
+
+
+  .aboutus>.team div img {
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  /*About us  ended */
+
+
+
+  /* contact us started */
+  .contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactus div p {
+    line-height: 35px;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+
+  .contactus iframe {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contactus img {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+
+  /* contact us ended */
+
+}
